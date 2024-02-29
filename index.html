@@ -6,8 +6,8 @@
     <title>Portfolio</title>
     <style>
         body{
-            background-color: indigo;
-            color: whitesmoke;
+            background-color: rgb(191, 400, 488);
+            color: rgb(7, 4, 27);
         }
         #head{
             display: flex;
@@ -20,11 +20,15 @@
             width: 50%;
             display: flex;
             justify-content: space-evenly;
+            
+        }
+        img:hover {
+            box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
         }
         a{
             justify-content: space-evenly;
             text-decoration: none;
-            color: white;
+            color:black;
         }
         #red
         {
@@ -44,17 +48,33 @@
         }
         img
         {
-            border-radius: 20%;
+            border-radius: 50%;
             height: 100px;
             width: 100px;
+            padding: 0px;
+            padding-right: 0px;
+            padding-top: 20px;
+            opacity: 100%;
+            
         }
         #ima
         {
+            opacity: 90%;
             margin-right: 250px;
         }
         #about{
+            color:darksalmon;
            display: flex;
            flex-direction: row;
+           background-image: url('./back5');
+           background-size: cover;
+           border-radius: 10%;
+           
+            background-repeat: no-repeat;
+            width: 100%;
+            height:100vh;
+            opacity: 80%;
+            padding-top: 15%;
         }
         #abo
         {
@@ -115,36 +135,41 @@
             justify-content: space-between;
         }
         #ski{
-            border-radius: 8%;
-            background-color: orange;
+            border-radius: 50%;
+            background-color: rgb(108, 108, 235);
             width: 40%;
             height: 60%;
-            padding-bottom: 30px;
-            padding-top: 20px;
-            margin-left: 30%;
+            padding-bottom: 80px;
+            padding-top: 80px;
+            padding-left: 70px;
+            padding-right: 90px;
+            margin-left: 25%;
         }
         .ush{
-            background-color: orange;
+            background-color:rgb(108, 108, 235) ;
             width: 60%;
-            padding-bottom: 20px;
+            padding-bottom: 50px;
+            padding-top: 50px;
             margin-left: 20%;
-            border-radius: 8%;
+            border-radius: 50%;
         }
         #cer{
-            background-color: orange;
+            background-color:rgb(108, 108, 235);
+            color: rgb(7, 4, 27);
             width: 50%;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            border-radius: 8%;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            border-radius: 50%;
             margin-left: 25%;
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    
     <div id="head">
         <div>
-            <h1 class="portfolio">Port<span style="color: burlywood;">folio</span></h1>
+            <h1 class="portfolio"><span style="color: rgb(234, 138, 12);"></span></h1>
         </div>
         <div id="hyper" class="hyp">
             <a href="#head">Home</a>
@@ -158,44 +183,48 @@
     <br>
     <div id="main">
         <div id="red">
-            <h4 style="color: orange;">
+            <h2 style="color: black;">
                 Hello
-            </h4>
+            </h2>
              <h1>I'm <span id="nam">Perugu Charan Raj</span></h1>
-             <h3>Student</h3>
+             <h2>Student</h2>
+             <div style="font-size:30px: px;color: chocolate;">
+                <button><a href="RESUME.docx">RESUME</a></button>
+            </div>
         </div>
         <div id="ima">
-            <img style="height: 300px;width:300px" src="./charan.jpeg.jpg" alt="charan's Photo">
+            <img style="height: 300px;width:300px" src="./charan2.jpg" alt="charan's Photo">
         </div>
     </div>
     <br>
     <br>
     <hr>
-    <h1 id="h1tag" style="color:burlywood;text-align: center;">About Me</h1>
+    <h1 id="h1tag" style="color:rgb(234, 138, 12);text-align: center;">About Me</h1>
     <div id="about">
         <div>
-            <p style="padding-left: 100px;padding-right:100px;">
-                My name is Perugu Charan Raj  and I am studing III BTech - CSSE in Sree Vidyanikehtan Engineering College Tirupathi. 
+            <p style="padding-left: 215px;padding-right:100px;padding-top: 50px;color:black;font-size: 30px;opacity: 0pc;p">
+                Enthusiastic graduate with a strong foundation in machine learning and<br>
+                data visualization. <br><br>I &nbsp;am adaptive to expand my &nbsp;skills and staying&nbsp; abreast of industry trends.<br><br>Proficient in programming languages such as Python&nbsp; and R, with hands-on<br> experience in utilizing data analysis libraries like Pandas,&nbsp;Numpy and <br>scikit-learn  to extract meaningful  insights from datasets.<br><br> 
             </p>
         </div>
     </div>
     <br>
     <br>
     <hr>
-    <h1 id="e" style="color:burlywood;text-align: center;">Education</h1>
+    <h1 id="e" style="color:rgb(234, 138, 12);text-align: center;">Education</h1>
     <div class="ush">
         <div id="ug" style="text-align:center;">
-            <h4 style="color: orange;">Under Graduate(UG)</h4>
+            <h2 style="color: rgb(191, 196, 185);">Under Graduate(UG)</h4>
             <h4> &nbsp;&nbsp;Sree Vidyanikethan Engineering College</h4>
-            <h4>CGPA: &nbsp;&nbsp;8.73</h4>
+            <h4>CGPA: &nbsp;&nbsp;8.73</h4><br>
         </div>
         <div id="in" style="text-align:center;">
-            <h4 style="color: orange;">Diploma in ECE</h4>
+            <h2 style="color: rgb(191, 196, 185);">Diploma in ECE</h4>
             <h4> &nbsp;&nbsp;Government Polytechnic College</h4>
-            <h4>CGPA: &nbsp;&nbsp;8.5</h4>
+            <h4>CGPA: &nbsp;&nbsp;8.5</h4><br>
         </div>
         <div id="t" style="text-align:center;">
-            <h4 style="color: orange;">Higher Education(X)</h4>
+            <h2 style="color: rgb(191, 196, 185);">Higher Education(X)</h4>
             <h4> &nbsp;&nbsp;Golden Bells High School</h4>
             <h4>CGPA: &nbsp;&nbsp;9.8</h4>
         </div>
@@ -203,20 +232,21 @@
     <br>
     <br>
     <hr>
-    <h1 id="s" style="color:burlywood;text-align: center;">Skills</h1>
+    <h1 id="s" style="color:rgb(234, 138, 12);text-align: center;font-size: 50px;">Skills</h1>
     <div id="sk">
         <div id="il" style="text-align: center;">
             <div id="ski">
-                <h4>Python</h4>
+                <h3>Python</h4>
                 <progress value="80" max="100"></progress>
-                <h4>Machine Learning</h4>
+                <h3>Machine Learning</h4>
                 <progress value="70" max="100"></progress>
-                <h4>Data Structures and Algorithms</h4>
-                <progress value="65" max="100"></progress>
-                <h4>Data Base Management Systems</h4>
-                <progress value="90" max="100"></progress>
-                <h4>Frontend Development</h4>
+                <h3>Frontend Development</h4>
                 <progress value="60" max="100"></progress>
+                <h3>Data Structures and Algorithms</h4>
+                <progress value="65" max="100"></progress>
+                <h3>Data Base Management Systems</h4>
+                <progress value="90" max="100"></progress>
+                
                 <!--<h4>Linux Programming</h4>
                 <progress value="95" max="100"></progress>-->
             </div>
@@ -225,20 +255,20 @@
     <br>
     <br>
     <hr>
-    <h1 style="color: burlywood;text-align:center;">Certificates</h1>
+    <h1 style="color: rgb(234, 138, 12);text-align:center;padding-top: 80px;padding-bottom: 20px;font-size:60px">Certificates</h1>
     <div id="cer">
-        <a href="https://coursera.org/share/515f1a837025eaa9a1a138bb0782386e" target="_blank"><h4 style="text-align: center;">Meta Database Engineer certificate </h4></a>
-        <a href="https://drive.google.com/file/d/1a5zrznGw1blkL8i93QUjM3hJdK_icOnZ/view?usp=drive_link" target="_blank"><h4 style="text-align: center;">Python for Data Science </h4></a>
-        <a href="https://coursera.org/share/b1d2698865abba75fa79d784c653f796" target="_blank"><h4 style="text-align: center;">Programming in Python</h4></a>
+        <a href="https://coursera.org/share/515f1a837025eaa9a1a138bb0782386e" target="_blank"><h2 style="text-align: center;">Meta Database Engineer certificate </h2></a>
+        <a href="https://drive.google.com/file/d/1a5zrznGw1blkL8i93QUjM3hJdK_icOnZ/view?usp=drive_link" target="_blank"><h2 style="text-align: center;">Python for Data Science </h2></a>
+        <a href="https://coursera.org/share/b1d2698865abba75fa79d784c653f796" target="_blank"><h2 style="text-align: center;">Programming in Python</h2></a>
     </div>
     <br>
     <br>
     <hr>
-    <h1 id="c" style="color:burlywood;text-align: center;">Contact</h1>
-    <div id="con" style="text-align: center;">
-        <h4 style="color: orange;">Linked In:&nbsp;&nbsp;<a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3By03YSoKnRLqHX1ROR6Xggg%3D%3D" target="_blank"><i style="height: 10px;width: 10px;" class="fa-brands fa-linkedin"></i></a></h4>
-        <h4 style="color: orange;">Instagram:&nbsp;&nbsp;<a href="https://www.instagram.com/pjayachandra.reddy/?hl=en" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></h4>
-        <h4 style="color: orange;">Email:&nbsp;&nbsp;<a href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"><i class="fa-sharp fa-solid fa-envelope"></i></a></h4>
+    <h1 id="c" style="color:rgb(234, 138, 12);text-align: center;font-size: 50px;">Contact</h1>
+    <div id="con" style="text-align: center; color: rgb(7, 4, 27);">
+        <h3 style="color: black;">Linked In:&nbsp;&nbsp;<a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3By03YSoKnRLqHX1ROR6Xggg%3D%3D" target="_blank"><i style="height: 10px;width: 10px;" class="fa-brands fa-linkedin"></i></a></h4>
+        <h3 style="color: black;">Instagram:&nbsp;&nbsp;<a href="https://www.instagram.com/pjayachandra.reddy/?hl=en" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></h4>
+        <h3 style="color: black;">Email:&nbsp;&nbsp;<a href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"><i class="fa-sharp fa-solid fa-envelope"></i></a></h4>
     </div>
 </body>
 </html>
